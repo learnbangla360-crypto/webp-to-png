@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WebP to PNG Converter: Free Online, Batch & Transparent</title>
+<meta name="description" content="Free online WebP to PNG converter for batches of up to 30 images. Keeps transparency or adds a white or black background. Files stay in your browser.">
+<link rel="canonical" href="https://webptopngconverter.globrik.com/">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#2563eb">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Free Online WebP to PNG Converter: Batch & Transparent">
+<meta property="og:description" content="Convert up to 30 WebP images to PNG at once. Keep transparency or fill the background. Free, online and private.">
+<meta property="og:url" content="https://webptopngconverter.globrik.com/">
+<meta property="og:site_name" content="Globrik">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free Online WebP to PNG Converter: Batch & Transparent">
+<meta name="twitter:description" content="Convert up to 30 WebP images to PNG at once. Keep transparency or fill the background. Free, online and private.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='32' y='42' font-size='24' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EPNG%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","name":"WebP to PNG Converter","description":"Free online WebP to PNG converter for batches of up to 30 images, with transparency kept or a solid background, running in your browser.","url":"https://webptopngconverter.globrik.com/","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://globrik.com/"},{"@type":"ListItem","position":2,"name":"WebP to PNG Converter","item":"https://webptopngconverter.globrik.com/"}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is this WebP to PNG converter really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no fee, no account, no watermark and no daily limit. Convert as many WebP images as you like, up to 30 files at a time."}},
+{"@type":"Question","name":"Are my images uploaded to a server?","acceptedAnswer":{"@type":"Answer","text":"No. Your images are processed in your browser and are never uploaded. The page makes no network requests while you convert."}},
+{"@type":"Question","name":"Does PNG keep the transparent background of my WebP?","acceptedAnswer":{"@type":"Answer","text":"Yes. By default the transparent areas stay transparent in the PNG. You can also choose a white or black background in the settings."}},
+{"@type":"Question","name":"Will the PNG look worse than my WebP?","acceptedAnswer":{"@type":"Answer","text":"No. PNG is lossless, so the pixels you see in the WebP are saved exactly. A lossy WebP will not get its lost detail back, though."}},
+{"@type":"Question","name":"Why is the PNG bigger than the WebP?","acceptedAnswer":{"@type":"Answer","text":"WebP usually compresses much better than PNG, so the PNG is often larger. That is normal. If size matters, try the JPG option or compress the result."}},
+{"@type":"Question","name":"Can it convert animated WebP files?","acceptedAnswer":{"@type":"Answer","text":"Only the first frame is saved. PNG here is a single still image, and this tool does not build animations."}},
+{"@type":"Question","name":"Do I need to sign up or install anything?","acceptedAnswer":{"@type":"Answer","text":"No. There is no login, no download and no extension. Open the page, add your WebP files, click Convert to PNG and save the results. It works in current Chrome, Safari, Firefox and Edge."}},
+{"@type":"Question","name":"Does it work on my phone?","acceptedAnswer":{"@type":"Answer","text":"Yes. Tap the box to pick WebP images from your phone or tablet, convert, and download the PNGs. Buttons are at least 44 pixels tall. Very large images are safer on a computer because phones have less memory."}},
+{"@type":"Question","name":"What is the difference between WebP and PNG?","acceptedAnswer":{"@type":"Answer","text":"WebP is designed for small web files and can be lossy or lossless. PNG is always lossless and is accepted almost everywhere, but its files are usually larger. Both support transparency."}},
+{"@type":"Question","name":"Does it work offline?","acceptedAnswer":{"@type":"Answer","text":"Once the page has loaded, conversion needs no internet connection, because it runs in your browser and makes no network requests. You do need to be online to open the page the first time."}}
+]}]}
+</script>
+<style>
+:root{--bg:#f8fafc;--card:#fff;--tx:#0f172a;--mu:#475569;--br:#cbd5e1;--ac:#1d4ed8;--act:#fff;--soft:#eff6ff;--ok:#166534;--er:#b91c1c}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111a2e;--tx:#e8eefc;--mu:#a5b4cf;--br:#2b3a57;--ac:#60a5fa;--act:#0b1220;--soft:#16233d;--ok:#86efac;--er:#fca5a5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:var(--ac)}
+a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,#drop:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+.w{max-width:1000px;margin:0 auto;padding:0 16px}
+header{background:var(--card);border-bottom:1px solid var(--br)}
+header .w{display:flex;flex-wrap:wrap;align-items:center;gap:0 20px;padding:6px 16px}
+.logo{font-weight:800;font-size:1.3rem;color:var(--tx);text-decoration:none;padding:8px 0}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 16px}
+nav a{display:inline-block;padding:10px 0;font-size:.95rem}
+h1{font-size:clamp(1.7rem,5vw,2.4rem);line-height:1.2;margin:24px 0 6px}
+h2{font-size:1.5rem;margin:40px 0 10px;line-height:1.3}
+h3{font-size:1.1rem;margin:20px 0 6px}
+p{margin:0 0 14px}
+.lead{color:var(--mu);font-size:1.08rem;margin:0 0 16px}
+.tool{display:grid;grid-template-columns:300px 1fr;background:var(--card);border:1px solid var(--br);border-radius:14px;overflow:hidden;min-height:430px}
+.side{padding:16px;border-right:1px solid var(--br)}
+.side h2{font-size:1.15rem;margin:0 0 10px}
+.side label{display:block;font-size:.88rem;color:var(--mu);margin:10px 0 4px}
+select{width:100%;min-height:44px;padding:8px 10px;border:1px solid var(--br);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit;font-size:.95rem}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}
+button{min-height:44px;padding:8px 14px;border:1px solid var(--br);border-radius:10px;background:var(--card);color:var(--tx);font:inherit;font-size:.95rem;font-weight:600;cursor:pointer}
+button:hover:not(:disabled){border-color:var(--ac)}
+button:disabled{opacity:.5;cursor:not-allowed}
+button.pri{background:var(--ac);color:var(--act);border-color:var(--ac);grid-column:1/3;font-size:1rem}
+.main{padding:10px;background:var(--bg);display:flex;flex-direction:column;gap:12px}
+#drop{min-height:200px;border:2px dashed var(--mu);border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:16px;cursor:pointer;background:var(--soft)}
+#drop.over{border-color:var(--ac);background:var(--card)}
+#drop strong{font-size:1.05rem}
+#drop span{color:var(--mu);font-size:.88rem;margin-top:8px}
+#status{min-height:1.6em;font-weight:600}
+#status.ok{color:var(--ok)}#status.err{color:var(--er)}
+.list{display:flex;flex-direction:column;gap:8px}
+.it{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--br);border-radius:10px;padding:8px 12px}
+.it img{width:52px;height:52px;object-fit:contain;border-radius:6px;background:repeating-conic-gradient(var(--br) 0 25%,var(--card) 0 50%) 0 0/12px 12px}
+.it .nm{flex:1;min-width:0;font-size:.93rem;word-break:break-all}
+.it .nm small{display:block;color:var(--mu)}
+.it .er{color:var(--er)}
+.it a{display:inline-block;min-height:44px;padding:9px 14px;border-radius:10px;background:var(--ac);color:var(--act);font-weight:600;text-decoration:none;font-size:.93rem}
+@media(max-width:700px){.tool{grid-template-columns:1fr}.side{border-right:0;border-bottom:1px solid var(--br)}}
+.box{background:var(--soft);border:1px solid var(--br);border-left:5px solid var(--ac);border-radius:10px;padding:16px;margin:26px 0}
+.box h2{margin:0 0 8px;font-size:1.25rem}
+.toc{background:var(--card);border:1px solid var(--br);border-radius:10px;padding:12px 16px;margin:22px 0}
+.toc ol{margin:4px 0 0;padding-left:20px;columns:2;column-gap:28px}
+.toc a{display:inline-block;padding:4px 0}
+@media(max-width:600px){.toc ol{columns:1}}
+ul,ol{padding-left:22px}li{margin-bottom:6px}
+.tw{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;min-width:460px;background:var(--card);font-size:.95rem}
+th,td{border:1px solid var(--br);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:var(--soft)}
+details{background:var(--card);border:1px solid var(--br);border-radius:10px;margin:10px 0;padding:0 14px}
+summary{cursor:pointer;font-weight:600;padding:13px 0;min-height:44px}
+details p{margin:0 0 14px}
+dl{margin:0}dt{margin-top:12px}dd{margin:2px 0 0}
+.rel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;padding:0;list-style:none}
+.rel a{display:block;padding:12px 14px;border:1px solid var(--br);border-radius:10px;background:var(--card);text-decoration:none;font-weight:600}
+.rel span{display:block;font-weight:400;color:var(--mu);font-size:.9rem}
+footer{margin-top:44px;background:var(--card);border-top:1px solid var(--br);padding:22px 0 30px;font-size:.93rem;color:var(--mu)}
+footer ul{list-style:none;margin:0 0 12px;padding:0;display:flex;flex-wrap:wrap;gap:0 18px}
+footer a{display:inline-block;padding:10px 0}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<header>
+<div class="w">
+<a class="logo" href="https://globrik.com/">Globrik</a>
+<nav aria-label="Globrik tools"><ul>
+<li><a href="https://webptojpg.globrik.com/">WebP to JPG</a></li>
+<li><a href="https://jpgtopng.globrik.com/">JPG to PNG</a></li>
+<li><a href="https://resizeimage.globrik.com/">Resize Image</a></li>
+<li><a href="https://compressimage.globrik.com/">Compress Image</a></li>
+<li><a href="https://imagetowebp.globrik.com/">Image to WebP</a></li>
+</ul></nav>
+</div>
+</header>
+<main class="w">
+<article>
+<h1>WebP to PNG Converter</h1>
+<p class="lead">Drop in one or more WebP images and download them as PNG files in seconds.</p>
+
+<section class="tool" aria-label="WebP to PNG converter tool">
+<div class="side">
+<h2>PNG Settings</h2>
+<label for="bg">Background</label>
+<select id="bg"><option value="none" selected>Keep transparency</option><option value="#ffffff">White</option><option value="#000000">Black</option></select>
+<div class="acts">
+<button type="button" id="reset" disabled>Reset</button>
+<button type="button" id="change">Add images</button>
+<button type="button" id="go" class="pri" disabled>Convert to PNG</button>
+<button type="button" id="all" style="grid-column:1/3" disabled>Download all</button>
+</div>
+</div>
+<div class="main">
+<div id="drop" tabindex="0" role="button" aria-label="Choose or drop WebP images">
+<strong>Drop WebP images here or tap to choose</strong>
+<span>WebP up to 50 MB each, 30 files at a time. Stays in your browser.</span>
+</div>
+<input type="file" id="file" accept=".webp,image/webp" multiple hidden aria-label="Choose WebP files">
+<div id="status" role="status" aria-live="polite"></div>
+<div class="list" id="list" aria-live="polite"></div>
+</div>
+</section>
+
+<section class="box" id="quick" aria-labelledby="quick-h">
+<h2 id="quick-h">Quick answer: how to convert WebP to PNG</h2>
+<p>To convert WebP to PNG online, drop your WebP files into the box above, leave the background on Keep transparency, and click Convert to PNG. Each image is saved as a lossless PNG you can download right away. It's free, needs no signup, and your images never leave your device.</p>
+<ol><li>Drop or choose your WebP images.</li><li>Pick a background, or keep transparency.</li><li>Click Convert to PNG.</li><li>Download each PNG, or use Download all.</li></ol>
+</section>
+
+<nav class="toc" aria-label="On this page"><strong>On this page</strong><ol>
+<li><a href="#intro">What it does</a></li><li><a href="#why">Why use it</a></li><li><a href="#guide">Step-by-step guide</a></li><li><a href="#features">Key features</a></li><li><a href="#specs">Formats and limits</a></li><li><a href="#uses">Use cases</a></li><li><a href="#tips">Tips and mistakes</a></li><li><a href="#privacy">Privacy</a></li><li><a href="#compare">Alternatives</a></li><li><a href="#trouble">Troubleshooting</a></li><li><a href="#glossary">Glossary</a></li><li><a href="#faq">FAQ</a></li>
+</ol></nav>
+
+<section id="intro" aria-labelledby="intro-h">
+<h2 id="intro-h">Turn WebP files into PNG</h2>
+<p>This WebP to PNG converter changes Google's WebP images into PNG files that open almost anywhere. WebP is great for fast websites, but many editors, older apps and print services still want PNG. Your browser decodes each WebP, and the tool saves the exact pixels as a lossless PNG, with transparency intact if there was any. There's no upload and no watermark.</p>
+<p>Want a smaller file instead? Use the <a href="https://webptojpg.globrik.com/">WebP to JPG Converter</a>.</p>
+</section>
+
+<section id="why" aria-labelledby="why-h">
+<h2 id="why-h">Why use this free online WebP to PNG converter</h2>
+<ul>
+<li><strong>No upload.</strong> Images are converted on your device, so there's no waiting on a server.</li>
+<li><strong>Transparency kept.</strong> Transparent areas stay transparent, or you can fill them with white or black.</li>
+<li><strong>Batch friendly.</strong> Convert up to 30 images at once.</li>
+<li><strong>No signup, no watermark.</strong> Open the page and go.</li>
+<li><strong>Full size.</strong> The PNG has the same width and height as the WebP.</li>
+</ul>
+</section>
+
+<section id="guide" aria-labelledby="guide-h">
+<h2 id="guide-h">How to convert WebP to PNG: step-by-step guide</h2>
+<h3>Step 1: Add your WebP images</h3>
+<p>Drag files onto the dashed box, or click it and pick them from your device. You can select several at once, up to 30. Need to add more later? Click Add images in the sidebar. Files that aren't WebP, or are over 50 MB, are skipped and the status line tells you how many.</p>
+<h3>Step 2: Choose a background</h3>
+<p>Keep transparency is the default and is right for logos, icons, stickers and cut-out product shots. Pick White or Black if the image will land on a page, document or print job where you want a solid color behind it. The fill is applied behind the image, so opaque pixels don't change.</p>
+<h3>Step 3: Convert</h3>
+<p>Click Convert to PNG. Images are processed one after another, and each result appears in the list with a preview, its pixel size and its file size. If one file fails, the rest still finish.</p>
+<h3>Step 4: Download</h3>
+<p>Click Download beside any result, or use Download all to save every PNG in turn. Each file keeps its original name with a .png ending, so photo.webp becomes photo.png.</p>
+<h3>Tips for best results</h3>
+<ul>
+<li>Check the checkerboard preview. If you see the pattern through the image, that area is transparent.</li>
+<li>Going to the web or email? Run the PNG through <a href="https://compressimage.globrik.com/">Compress Image File</a> afterward.</li>
+<li>Need a flat photo with no transparency? <a href="https://pngtojpg.globrik.com/">PNG to JPG</a> or <a href="https://webptojpg.globrik.com/">WebP to JPG</a> gives a much smaller file.</li>
+</ul>
+</section>
+
+<section id="features" aria-labelledby="features-h">
+<h2 id="features-h">Key features and benefits</h2>
+<ul>
+<li>Batch conversion of up to 30 WebP images in one run.</li>
+<li>Lossless PNG output at the same width and height as the source.</li>
+<li>Transparency kept, or a white or black background of your choice.</li>
+<li>Live preview on a checkerboard so you can see transparent areas.</li>
+<li>Pixel size and file size shown for every result.</li>
+<li>Per-file error messages, so one bad file doesn't stop the batch.</li>
+<li>Drag and drop, plus a file picker that works on phones and tablets.</li>
+<li>Keyboard accessible, with labeled controls and large tap targets.</li>
+<li>Light theme with automatic dark mode.</li>
+<li>No signup, no watermark and no ads inside the tool.</li>
+</ul>
+</section>
+
+<section id="specs" aria-labelledby="specs-h">
+<h2 id="specs-h">Supported formats, specs and limits</h2>
+<div class="tw"><table>
+<thead><tr><th>Item</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td>Input</td><td>.webp files, lossy or lossless, with or without transparency</td></tr>
+<tr><td>Output</td><td>PNG, lossless, same pixel size as the source</td></tr>
+<tr><td>File size</td><td>Up to 50 MB per file</td></tr>
+<tr><td>Batch</td><td>Up to 30 files per run</td></tr>
+<tr><td>Animated WebP</td><td>First frame only</td></tr>
+<tr><td>Very large images</td><td>May fail if your browser can't allocate the canvas memory</td></tr>
+<tr><td>Not supported</td><td>Metadata (EXIF) is not copied to the PNG; no ZIP download</td></tr>
+</tbody></table></div>
+<p>For format background, see the Wikipedia pages on <a href="https://en.wikipedia.org/wiki/WebP" rel="noopener">WebP</a> and <a href="https://en.wikipedia.org/wiki/PNG" rel="noopener">PNG</a>.</p>
+</section>
+
+<section id="uses" aria-labelledby="uses-h">
+<h2 id="uses-h">Who uses a WebP to PNG converter</h2>
+<ul>
+<li><strong>Designers:</strong> open a downloaded WebP asset in an editor that only reads PNG.</li>
+<li><strong>Bloggers and site owners:</strong> turn WebP graphics into PNG for a platform that rejects WebP.</li>
+<li><strong>Students:</strong> insert a saved web image into slides or a Word document.</li>
+<li><strong>Sellers:</strong> upload product photos to a marketplace that accepts only JPG and PNG.</li>
+<li><strong>Developers:</strong> make PNG fallbacks and icons with transparent backgrounds.</li>
+<li><strong>Anyone printing:</strong> send a PNG to a print shop that can't read WebP.</li>
+</ul>
+</section>
+
+<section id="tips" aria-labelledby="tips-h">
+<h2 id="tips-h">Expert tips and common mistakes</h2>
+<h3>Expect a bigger file</h3>
+<p>WebP compresses far better than PNG, so a 80 KB WebP photo can become a PNG of several hundred KB or more. For photos without transparency, JPG is usually smaller. Try the <a href="https://webptojpg.globrik.com/">WebP to JPG Converter</a>.</p>
+<h3>Don't expect lost detail to return</h3>
+<p>If the WebP was saved with lossy compression, the PNG copies those pixels as they are. It won't look sharper.</p>
+<h3>Pick a background for light or dark pages</h3>
+<p>Keep transparency for logos and icons. Choose white if you're sending the PNG to someone whose viewer shows transparent areas as black.</p>
+<h3>Need a different size?</h3>
+<p>Convert first, then change dimensions with <a href="https://resizeimage.globrik.com/">Resize Image</a>, or shrink the file with <a href="https://compressimage.globrik.com/">Compress Image File</a>.</p>
+</section>
+
+<section id="privacy" aria-labelledby="privacy-h">
+<h2 id="privacy-h">Privacy and security</h2>
+<p>Your images are processed in your browser and are never uploaded. The page loads no external scripts, fonts or images, and it makes no network requests while you convert. The tool stores nothing in cookies or local storage. Closing or refreshing the tab clears your files and results from memory.</p>
+</section>
+
+<section id="compare" aria-labelledby="compare-h">
+<h2 id="compare-h">This tool vs. other ways to convert WebP to PNG</h2>
+<p>Each option has a place. Here's how they differ in practice:</p>
+<div class="tw"><table>
+<thead><tr><th>Factor</th><th>This browser tool</th><th>Desktop editors</th><th>Server-based sites</th></tr></thead>
+<tbody>
+<tr><td>Setup</td><td>None, just open the page</td><td>Install an app; older versions may need a plugin for WebP</td><td>None</td></tr>
+<tr><td>Where files are processed</td><td>On your device</td><td>On your device</td><td>Usually on the site's server</td></tr>
+<tr><td>Upload wait</td><td>None</td><td>None</td><td>Depends on file size and connection</td></tr>
+<tr><td>Batch conversion</td><td>Yes, up to 30</td><td>Often, with actions or scripts</td><td>Varies, often limited on free plans</td></tr>
+<tr><td>Fine editing and color control</td><td>No, conversion only</td><td>Yes</td><td>Rarely</td></tr>
+<tr><td>Cost</td><td>Free</td><td>Free or paid, depends on the app</td><td>Often free with limits or ads</td></tr>
+</tbody></table></div>
+<p>If you're already editing in a desktop app, its Save As or Export option is handy. This page is faster for a quick conversion, a batch of files, or a computer where you can't install software.</p>
+</section>
+
+<section id="trouble" aria-labelledby="trouble-h">
+<h2 id="trouble-h">Troubleshooting</h2>
+<h3>"Not a valid WebP image"</h3>
+<p>The file may be corrupted or renamed from another format. Re-download it, or open it in a browser to check that it displays.</p>
+<h3>"Image is too large to convert"</h3>
+<p>Your browser couldn't allocate memory for that many pixels. Try a computer, close other tabs, or shrink the image first.</p>
+<h3>The PNG has a black background</h3>
+<p>Some viewers show transparency as black. Set Background to White and convert again.</p>
+<h3>Only the first frame appears</h3>
+<p>That's expected for animated WebP. This tool saves still images only.</p>
+<h3>Download all only saved some files</h3>
+<p>Your browser may block several downloads at once. Allow multiple downloads for this site, or use the Download buttons one at a time.</p>
+<h3>File won't load</h3>
+<p>Check that it's a .webp file under 50 MB. Other formats are skipped.</p>
+</section>
+
+<section id="glossary" aria-labelledby="glossary-h">
+<h2 id="glossary-h">Glossary</h2>
+<dl>
+<dt><strong>WebP</strong></dt><dd>An image format from Google that supports lossy and lossless compression, transparency and animation. It's built for small files on the web.</dd>
+<dt><strong>PNG</strong></dt><dd>Portable Network Graphics, a lossless image format with full transparency support, widely accepted by editors, apps and print services.</dd>
+<dt><strong>Lossless compression</strong></dt><dd>Compression that keeps every pixel exactly as it is. PNG always uses it.</dd>
+<dt><strong>Lossy compression</strong></dt><dd>Compression that throws away some detail to shrink the file. WebP can use it, and JPG always does.</dd>
+<dt><strong>Alpha channel</strong></dt><dd>The part of an image that stores transparency. It's what lets a logo sit on any background.</dd>
+<dt><strong>Canvas</strong></dt><dd>A browser feature that draws images in memory. This tool uses it to decode the WebP and write the PNG.</dd>
+</dl>
+</section>
+
+<section id="faq" aria-labelledby="faq-h">
+<h2 id="faq-h">Frequently asked questions</h2>
+<details><summary>Is this WebP to PNG converter really free?</summary><p>Yes. There is no fee, no account, no watermark and no daily limit. Convert as many WebP images as you like, up to 30 files at a time.</p></details>
+<details><summary>Are my images uploaded to a server?</summary><p>No. Your images are processed in your browser and are never uploaded. The page makes no network requests while you convert.</p></details>
+<details><summary>Does PNG keep the transparent background of my WebP?</summary><p>Yes. By default the transparent areas stay transparent in the PNG. You can also choose a white or black background in the settings.</p></details>
+<details><summary>Will the PNG look worse than my WebP?</summary><p>No. PNG is lossless, so the pixels you see in the WebP are saved exactly. A lossy WebP will not get its lost detail back, though.</p></details>
+<details><summary>Why is the PNG bigger than the WebP?</summary><p>WebP usually compresses much better than PNG, so the PNG is often larger. That is normal. If size matters, try the JPG option or compress the result.</p></details>
+<details><summary>Can it convert animated WebP files?</summary><p>Only the first frame is saved. PNG here is a single still image, and this tool does not build animations.</p></details>
+<details><summary>Do I need to sign up or install anything?</summary><p>No. There is no login, no download and no extension. Open the page, add your WebP files, click Convert to PNG and save the results. It works in current Chrome, Safari, Firefox and Edge.</p></details>
+<details><summary>Does it work on my phone?</summary><p>Yes. Tap the box to pick WebP images from your phone or tablet, convert, and download the PNGs. Buttons are at least 44 pixels tall. Very large images are safer on a computer because phones have less memory.</p></details>
+<details><summary>What is the difference between WebP and PNG?</summary><p>WebP is designed for small web files and can be lossy or lossless. PNG is always lossless and is accepted almost everywhere, but its files are usually larger. Both support transparency.</p></details>
+<details><summary>Does it work offline?</summary><p>Once the page has loaded, conversion needs no internet connection, because it runs in your browser and makes no network requests. You do need to be online to open the page the first time.</p></details>
+</section>
+
+<section aria-labelledby="concl-h">
+<h2 id="concl-h">Convert your WebP to PNG now</h2>
+<p>You don't need Photoshop or an account to change a WebP into a PNG. Drop your files into this free WebP to PNG converter, keep or fill the background, and download the results in seconds. Scroll back up to the tool and try it on your own images.</p>
+</section>
+
+<section aria-labelledby="rel-h">
+<h2 id="rel-h">Related tools</h2>
+<ul class="rel">
+<li><a href="https://webptojpg.globrik.com/">WebP to JPG Converter<span>Smaller files for photos</span></a></li>
+<li><a href="https://jpgtopng.globrik.com/">JPG to PNG Converter<span>Turn JPG photos into PNG</span></a></li>
+<li><a href="https://imagetowebp.globrik.com/">Image to WebP Converter<span>Make lightweight WebP images</span></a></li>
+<li><a href="https://resizeimage.globrik.com/">Resize Image<span>Change width and height</span></a></li>
+<li><a href="https://compressimage.globrik.com/">Compress Image File<span>Reduce image file size</span></a></li>
+</ul>
+</section>
+</article>
+</main>
+<footer>
+<div class="w">
+<ul>
+<li><a href="https://sites.google.com/view/globriklegal/privacy-policy">Privacy Policy</a></li>
+<li><a href="https://sites.google.com/view/globriklegal/terms-of-use">Terms</a></li>
+<li><a href="https://sites.google.com/view/globriklegal/contact">Contact</a></li>
+<li><a href="https://sites.google.com/view/globriklegal/about">About</a></li>
+</ul>
+<p>Disclaimer: Use only images you own or have the right to use.</p>
+<p>&copy; <span id="yr">2026</span> <a href="https://globrik.com/">Globrik</a></p>
+</div>
+</footer>
+<script>
+try{document.getElementById('yr').textContent=new Date().getFullYear()}catch(e){}
+</script>
+<script>
+(function(){
+try{
+var $=function(i){return document.getElementById(i)};
+var q=[],res=[],busy=false,MAXF=50*1024*1024,MAXN=30;
+var drop=$('drop'),inp=$('file'),st=$('status'),list=$('list'),go=$('go'),rs=$('reset'),chg=$('change'),all=$('all');
+function say(m,e){st.textContent=m;st.className=e?'err':'ok'}
+function size(b){return b>=1048576?(b/1048576).toFixed(1)+' MB':Math.max(1,Math.round(b/1024))+' KB'}
+function btns(){go.disabled=!q.length||busy;rs.disabled=(!q.length&&!res.length)||busy;all.disabled=!res.some(function(r){return r.url})||busy}
+function row(name,sub,err,url,dl){
+var d=document.createElement('div');d.className='it';
+if(url){var im=document.createElement('img');im.src=url;im.alt='Preview of '+name;d.appendChild(im)}
+var n=document.createElement('div');n.className='nm';n.textContent=name;
+var s=document.createElement('small');s.textContent=sub;if(err)s.className='er';n.appendChild(s);d.appendChild(n);
+if(dl){var a=document.createElement('a');a.href=url;a.download=dl;a.textContent='Download';d.appendChild(a)}
+list.appendChild(d);
+}
+function add(files){
+if(busy)return;
+var ok=0,bad=0;
+Array.prototype.forEach.call(files,function(f){
+var isW=/\.webp$/i.test(f.name)||f.type==='image/webp';
+if(!isW||f.size>MAXF||!f.size||q.length>=MAXN){bad++;return}
+q.push(f);ok++;
+});
+if(bad)say(bad+' file(s) skipped: only .webp files up to 50 MB, max 30 files.',true);
+if(ok){say(q.length+' file(s) ready. Click Convert to PNG.',false);if(!bad)st.className='ok'}
+else if(!bad)say('No files added.',true);
+if(ok){list.innerHTML='';res.forEach(function(r){if(r.url)URL.revokeObjectURL(r.url)});res=[];q.forEach(function(f){row(f.name,size(f.size)+' \u00B7 waiting')})}
+btns();
+}
+function load(f){
+return new Promise(function(ok,no){
+var u=URL.createObjectURL(f),im=new Image();
+im.onload=function(){URL.revokeObjectURL(u);ok(im)};
+im.onerror=function(){URL.revokeObjectURL(u);no(new Error('Not a valid WebP image.'))};
+im.src=u;
+});
+}
+async function conv(){
+if(!q.length||busy)return;
+busy=true;btns();list.innerHTML='';res=[];
+var bg=$('bg').value,done=0,fail=0,files=q;q=[];
+for(var i=0;i<files.length;i++){
+var f=files[i];
+say('Converting '+(i+1)+' of '+files.length+'...');
+try{
+var im=await load(f),w=im.naturalWidth,h=im.naturalHeight;
+if(!w||!h)throw new Error('Not a valid WebP image.');
+var c=document.createElement('canvas');c.width=w;c.height=h;
+var x=c.getContext('2d');
+if(!x)throw new Error('Image is too large to convert.');
+if(bg!=='none'){x.fillStyle=bg;x.fillRect(0,0,w,h)}
+x.drawImage(im,0,0);
+var blob=await new Promise(function(r){c.toBlob(r,'image/png')});
+if(!blob)throw new Error('Image is too large to convert.');
+var url=URL.createObjectURL(blob),name=f.name.replace(/\.webp$/i,'')+'.png';
+res.push({url:url,name:name});
+row(name,w+' \u00D7 '+h+' px \u00B7 '+size(blob.size),false,url,name);
+done++;
+}catch(e){fail++;row(f.name,e&&e.message?e.message:'Could not convert this file.',true)}
+await new Promise(function(r){setTimeout(r,0)});
+}
+busy=false;btns();
+say(done?('Done: '+done+' PNG file(s) ready'+(fail?', '+fail+' failed.':'.')):'No files could be converted.',!done);
+}
+go.addEventListener('click',conv);
+chg.addEventListener('click',function(){inp.click()});
+rs.addEventListener('click',function(){if(busy)return;res.forEach(function(r){if(r.url)URL.revokeObjectURL(r.url)});q=[];res=[];list.innerHTML='';inp.value='';say('Cleared. Ready for new images.');btns()});
+all.addEventListener('click',function(){
+var links=list.querySelectorAll('a');
+Array.prototype.forEach.call(links,function(a,i){setTimeout(function(){a.click()},i*400)});
+});
+drop.addEventListener('click',function(){inp.click()});
+drop.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();inp.click()}});
+inp.addEventListener('change',function(){add(inp.files||[]);inp.value=''});
+['dragenter','dragover'].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.add('over')})});
+['dragleave','drop'].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.remove('over')})});
+drop.addEventListener('drop',function(e){if(e.dataTransfer&&e.dataTransfer.files)add(e.dataTransfer.files)});
+}catch(err){var s=document.getElementById('status');if(s){s.textContent='This tool could not start in your browser. Please try an up-to-date browser.';s.className='err'}}
+})();
+</script>
+</body>
+</html>
